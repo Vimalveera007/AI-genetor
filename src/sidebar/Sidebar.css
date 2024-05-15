@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.sidebar {
+    min-height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #ccdcef;
+    padding: 25px 30px;
+    justify-content: space-between;
+}
+
+.sidebar img {
+    width: 20px;
+}
+
+.menu {
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.chat {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    padding: 10px 15px;
+    background-color: #e6eaf1;
+    color: grey;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+.chat:hover {
+    background-color: #fff;
+}
+
+.recent {
+    margin-top: 20px;
+}
+
+.recent-entry {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.help {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.activity {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.setting {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}

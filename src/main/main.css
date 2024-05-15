@@ -1,0 +1,174 @@
+/* .userIcon{
+    width: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-left: 1000px;
+}
+
+
+.logoIcon{
+    width: 50px;
+    margin-top: -20px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-style: italic;
+}
+
+.content span{
+    font-size: 28px;
+    
+}
+
+.main{
+   font-size: 18px;
+   color:grey;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+} */
+
+
+
+
+.main {
+    flex: 1;
+    min-height: 100vh;
+    padding-bottom: 15vh;
+    position: relative;
+}
+
+.main .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    padding: 20px;
+    color: grey;
+}
+
+.userIcon {
+    width: 40px;
+    border-radius: 50px;
+}
+
+
+.main-container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.main-content {
+    margin: 50px 0px;
+    font-size: 56px;
+    color: #c4c7c6;
+    font-weight: 400;
+    padding: 20px;
+    font-style: italic;
+}
+
+.main-content span {
+    background: -webkit-linear-gradient(16deg, #3494E6, #EC6EAD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cards {
+    display: flex;
+    padding: 10px;
+    gap: 15px;
+}
+
+.card {
+    height: 200px;
+    width: 400px;
+    padding: 15px;
+    background-color: #f0f4f9;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.card img {
+    width: 30px;
+    background-color: white;
+    border-radius: 10px;
+    bottom: 10px;
+    position: absolute;
+    right: 10px;
+}
+
+.main-bottom {
+    position: absolute;
+    width: 100%;
+    max-width: 800px;
+    bottom: 20px;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #f0f4f9;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.search-box input {
+    outline: 0;
+    border: 0;
+    background-color: #f0f4f9;
+    font-size: 18px;
+    padding: 0px 50px;
+    width: 500px;
+}
+
+.send {
+    margin-right: 10px;
+}
+
+.search-box img {
+    width: 24px;
+    cursor: pointer;
+    margin: 0px 10px;
+}
+
+
+.result {
+
+    max-height: 70vh;
+    overflow-y: scroll;
+}
+
+.result::-webkit-scrollbar {
+    display: none;
+}
+
+
+.result-title {
+    margin: 40px 0px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.result img {
+    width: 50px;
+}
+
+.result-data {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+}
